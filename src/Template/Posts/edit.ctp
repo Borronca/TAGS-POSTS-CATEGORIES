@@ -22,7 +22,7 @@
             echo $this->Form->input('category_id', ['options' => $categories]);
             echo $this->Form->input('title');
             echo $this->Form->input('slug');
-            echo $this->Form->input('content');
+            echo $this->Form->input('content',['class'=>'ckeditor']);
             echo $this->Form->input('author');
             echo $this->Form->input('published');
             echo $this->Form->input('tag_string', ['type' => 'text']);
